@@ -35,8 +35,8 @@
 	}
 	
 	.pfp {
-    display: block;
-    margin: 0 auto;
+        display: block;
+        margin: 0 auto;
 	transition: opacity 1s,margin .5s;
 	position: sticky;
 	background: #000;
@@ -62,10 +62,10 @@
 	
 	.base {
 	margin: auto;
-    width: 50%;
-    height: 1.5em;
-    border-radius: 5px 10px;
-    background-color: var(--third-color);
+        width: 50%;
+        height: 1.5em;
+        border-radius: 5px 10px;
+        background-color: var(--third-color);
 	z-index: -1;
 	}
 	
