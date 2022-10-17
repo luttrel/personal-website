@@ -1,5 +1,5 @@
 /* CSS Document */
-    :root {
+        :root {
 	--first-color: #EDF2F7;
 	--second-color: #4A5568;
 	--third-color: #2D3748;
@@ -8,7 +8,7 @@
 	--sixth-color: #cyan;
 	}
 	
-    body {
+        body {
 	min-height: 60em;
 	max-width: 70em;
 	width: auto;
@@ -43,8 +43,10 @@
 	width: 15%;
 	border-radius: 50%;
 	box-shadow: 0 0 2em #fff;
+	opacity: 1; 
+	margin-top: -100px;
 	z-index: 2;
-    }
+        }
 	
 	* {
 	outline: none;
@@ -70,6 +72,10 @@
 	}
 	
 	.percentage {
+	background-color: #306998;
+	opacity: 1;
+	width:5%; 
+	margin-top: -10px;
 	height: 1.5em;
 	border-radius: 5px 10px;
 	z-index: 2;
