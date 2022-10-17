@@ -1,0 +1,76 @@
+/* CSS Document */
+    :root {
+	--first-color: #EDF2F7;
+	--second-color: #4A5568;
+	--third-color: #2D3748;
+	--fourth-color: #1A202C;
+	--fifth-color: #171923;
+	--sixth-color: #cyan;
+	}
+	
+    body {
+	min-height: 60em;
+	max-width: 70em;
+	width: auto;
+	padding: 0.5em;
+	position: relative;
+	color: var(--first-color);
+	background-color: var(--fifth-color);
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	}
+	
+	.backgroundpfp {
+	height: 12.5em;
+	width: auto;
+	display: block;
+	background-image: url(starrynight.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	border-radius: 10px;
+	filter: blur(3px);
+	z-index: -1;
+	}
+	
+	.pfp {
+    display: block;
+    margin: 0 auto;
+	transition: opacity 1s,margin .5s;
+	position: sticky;
+	background: #000;
+	width: 15%;
+	border-radius: 50%;
+	box-shadow: 0 0 2em #fff;
+	z-index: 2;
+    }
+	
+	* {
+	outline: none;
+	font-family: oxygen,Helvetica,sans-serif;
+	box-sizing: border-box;
+	color: var(--first-color);
+	text-decoration: none;
+	}
+	
+	hr {
+	width: 90%;
+	border-style: groove;
+	opacity: .7;
+	}
+	
+	.base {
+	margin: auto;
+    width: 50%;
+    height: 1.5em;
+    border-radius: 5px 10px;
+    background-color: var(--third-color);
+	z-index: -1;
+	}
+	
+	.percentage {
+	height: 1.5em;
+	border-radius: 5px 10px;
+	z-index: 2;
+	}
