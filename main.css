@@ -32,7 +32,7 @@
 	width: auto;
 	display: block;
 	background-image: url(starrynight.jpg);
-	background-position: center;
+	background-position: -100px -50px;
 	background-size: cover;
 	background-attachment: fixed;
 	border-radius: 10px;
