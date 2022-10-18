@@ -1,0 +1,37 @@
+/* CSS Document */
+   :root {
+	--first-color: #EDF2F7;
+	--second-color: #4A5568;
+	--third-color: #2D3748;
+	--fourth-color: #1A202C;
+	--fifth-color: #171923;
+	--sixth-color: #cyan;
+	}
+
+    body {
+	min-height: 60em;
+	max-width: 70em;
+	width: auto;
+	padding: 0.5em;
+	position: relative;
+	color: var(--first-color);
+	background-color: var(--fifth-color);
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	}
+		
+	* {
+	outline: none;
+	font-family: oxygen,Helvetica,sans-serif;
+	box-sizing: border-box;
+	color: var(--first-color);
+	text-decoration: none;
+	}
+	
+	.myself {
+	line-height: 1.75rem;
+    margin-left: -850px;
+	line-height: 5px;
+	z-index: 2;
+	}
