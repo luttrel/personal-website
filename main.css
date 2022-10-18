@@ -12,6 +12,15 @@
 	line-height: 1.75rem;
         margin-left: -850px;
 	line-height: 5px;
+	z-index: 2;
+	}
+	
+	.about {
+	line-height: 1.75rem;
+	margin-left: 850px;
+	line-height: 5px;
+	margin-top: -20px;
+	z-index: 2;
 	}
 
         body {
