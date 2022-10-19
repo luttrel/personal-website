@@ -1,5 +1,5 @@
 /* CSS Document */
-    :root {
+        :root {
 	--first-color: #EDF2F7;
 	--second-color: #4A5568;
 	--third-color: #2D3748;
@@ -41,7 +41,7 @@
 	transition: 150ms ease-in-out;
 	}
 
-    body {
+        body {
 	min-height: 60em;
 	max-width: 70em;
 	width: auto;
@@ -68,8 +68,8 @@
 	}
 	
 	.pfp {
-    display: block;
-    margin: 0 auto;
+        display: block;
+        margin: 0 auto;
 	transition: opacity 1s,margin .5s;
 	position: sticky;
 	background: #000;
@@ -79,7 +79,7 @@
 	opacity: 1; 
 	margin-top: -100px;
 	z-index: 2;
-    }
+        }
 	
 	* {
 	outline: none;
@@ -97,10 +97,10 @@
 	
 	.base {
 	margin: auto;
-    width: 50%;
-    height: 1.5em;
-    border-radius: 5px 10px;
-    background-color: var(--third-color);
+        width: 50%;
+        height: 1.5em;
+        border-radius: 5px 10px;
+        background-color: var(--third-color);
 	z-index: -1;
 	}
 	
