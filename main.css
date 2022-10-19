@@ -1,11 +1,18 @@
 /* CSS Document */
-:root {
-    --first-color: #EDF2F7;
-    --second-color: #4A5568;
-    --third-color: #2D3748;
-    --fourth-color: #1A202C;
-    --fifth-color: #171923;
-    --sixth-color: #cyan;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 60em;
+    max-width: 70em;
+    width: auto;
+    margin: auto;
+    padding: .5em;
+    position: relative;
+    color: var (--first - color);
+    background-color: var (--fifth - color);
+    text-align: center;
 }
 
 .navigation {
@@ -18,10 +25,20 @@
     padding: auto;
 }
 
+.navigation {
+    position: relative;
+    margin: 0;
+    text-align: center;
+    display: flexbox;
+    height: 3 em;
+    vertical-align: middle;
+    padding: auto;
+}
+
 .navigation>a.myself {
     text-decoration: none;
     float: left;
-    margin: 0.em;
+    margin: .5em;
     padding: auto;
     text-align: center;
     cursor: pointer;
@@ -37,8 +54,58 @@
     text-align: center;
 }
 
+:root {
+    --first-color: #EDF2F7;
+    --second-color: #4A5568;
+    --third-color: #2D3748;
+    --fourth-color: #1A202C;
+    --fifth-color: #171923;
+    --sixth-color: #cyan;
+}
+
 * a {
     transition: 150ms ease-in-out;
+}
+
+#profile {
+    width: auto;
+    position: relative;
+    border-radius: 10 px;
+    margin: .5em;
+}
+
+#profile>.backgroundpfp {
+    height: 12.5em;
+    width: auto;
+    display: block;
+    background-image: url(starrynight.jpg);
+    background-position: -100px -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+#profile>.content {
+    margin: auto;
+    margin-top: -3.75em;
+    width: 100 %;
+    z-index: 1;
+}
+
+#profile>.content>#pfp {
+    margin-top: 1em;
+    transition: opacity 1s, margin .5s;
+    opacity: 0;
+    position: sticky;
+    background: #000;
+    height: 10.5em;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 2em #fff;
+    z-index: 2;
 }
 
 body {
@@ -52,33 +119,6 @@ body {
     text-align: center;
     display: block;
     margin: 0 auto;
-}
-
-.backgroundpfp {
-    height: 12.5em;
-    width: auto;
-    display: block;
-    background-image: url(starrynight.jpg);
-    background-position: -100px -50px;
-    background-size: cover;
-    background-attachment: fixed;
-    border-radius: 10px;
-    filter: blur(3px);
-    z-index: -1;
-}
-
-.pfp {
-    display: block;
-    margin: 0 auto;
-    transition: opacity 1s, margin .5s;
-    position: sticky;
-    background: #000;
-    width: 15%;
-    border-radius: 50%;
-    box-shadow: 0 0 2em #fff;
-    opacity: 1;
-    margin-top: -100px;
-    z-index: 2;
 }
 
 * {
