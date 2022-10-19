@@ -1,63 +1,63 @@
 /* CSS Document */
-   :root {
-	--first-color: #EDF2F7;
-	--second-color: #4A5568;
-	--third-color: #2D3748;
-	--fourth-color: #1A202C;
-	--fifth-color: #171923;
-	--sixth-color: #cyan;
-	}
+:root {
+    --first-color: #EDF2F7;
+    --second-color: #4A5568;
+    --third-color: #2D3748;
+    --fourth-color: #1A202C;
+    --fifth-color: #171923;
+    --sixth-color: #cyan;
+}
 
-        * {
-	outline: none;
-	font-family: oxygen,Helvetica,sans-serif;
-	box-sizing: border-box;
-	color: var(--first-color);
-	text-decoration: none;
-	}
-	
- 	.navigation {
-	position: relative;
-	margin: 0;
-	text-align:center;
-	display: flexbox;
-	height: 3em;
-	vertical-align: middle;
-	padding: auto;
-	}
-	
-	.navigation>a.myself {
-	text-decoration: none;
-	float: left;
-	margin: 0.em;
-	padding: auto;
-	text-align: center;
-	cursor: pointer;
-	font-size: 1.5em;
-	}
-	
-	.navigation>nav>.navbutton {
-	color: var(--first-color);
-	text-decoration: none;
-	float: right;
-	margin: 1em;
-	padding: auto;
-	text-align: center;
-	}
-	
-	* a {
-	transition: 150ms ease-in-out;
-	}
-	
-	body {
-	min-height: 60em;
-	max-width: 70em;
-	width: auto;
-	padding: 0.5em;
-	position: relative;
-	color: var(--first-color);
-	background-color: var(--fifth-color);
-	text-align: center;
-	display: block;
-	margin: 0 auto;
-	}
+* {
+    outline: none;
+    font-family: oxygen, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: var(--first-color);
+    text-decoration: none;
+}
+
+.navigation {
+    position: relative;
+    margin: 0;
+    text-align: center;
+    display: flexbox;
+    height: 3em;
+    vertical-align: middle;
+    padding: auto;
+}
+
+.navigation>a.myself {
+    text-decoration: none;
+    float: left;
+    margin: 0.em;
+    padding: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.navigation>nav>.navbutton {
+    color: var(--first-color);
+    text-decoration: none;
+    float: right;
+    margin: 1em;
+    padding: auto;
+    text-align: center;
+}
+
+* a {
+    transition: 150ms ease-in-out;
+}
+
+body {
+    min-height: 60em;
+    max-width: 70em;
+    width: auto;
+    padding: 0.5em;
+    position: relative;
+    color: var(--first-color);
+    background-color: var(--fifth-color);
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
