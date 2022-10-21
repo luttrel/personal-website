@@ -1,4 +1,8 @@
 /* CSS document */
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --first-color: #EDF2F7;
     --second-color: #4A5568;
